@@ -1,7 +1,7 @@
 var mongoose = require('mongoose')
 
 var conexao = ()=>{
-     var caminho = mongoose.connect('mongodb+srv://mongodbuser:m0ng0dbUs3r@cluster0.nwf8p.mongodb.net/mongoatlas?retryWrites=true&w=majority')
+     var caminho = mongoose.connect('mongodb+srv://depoimento:280304ma@cluster0.tfqrg.mongodb.net/Depoimentos?retryWrites=true&w=majority')
 }
 
 var schema = mongoose.Schema
